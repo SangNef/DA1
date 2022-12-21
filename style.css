@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    overflow-x:hidden ;
+    background: #fff;
+    min-height: 100vh;
+
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 1000;
+}
+.logo{
+    color: #112434;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.navigation li {
+    list-style: none;
+
+}
+.navigation li a {
+    text-decoration:none;
+    padding: 6px 15px;
+    color: #112434;
+    border-radius: 20px;
+}
+.navigation li a:hover,
+.navigation li a.active{
+    background: #112434;
+    color: #fff;
+}
+.parallax{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.parallax img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+
+}
+#text{
+    position: absolute;
+    top: 50%;
+    transform: translate(25%,-100%);
+    font-size: 4em;
+    color: #112434;
+}
+.gallery{
+    z-index: 99999;
+    height: 100vh;
+    color: #fff;
+    position: relative;
+    padding: 0;
+}
+.content{
+    position: relative;
+    top: 150px;
+    left: 10%;
+    width: 80vw;
+}
+.content h1 {
+    text-align: center;
+    color: #333;
+}
+.content .warning {
+    color: #ff0000;
+    font-weight: bold;
+}
+.content ul {
+    list-style-type: none;
+    padding: 0;
+}
+.content li {
+    margin: 10px 0;
+}
+.content img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.text {
+    width: 1120px;
+    height: 800px;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+}
+p{
+    font-size: 20px;
+   font-family:"vertical-align: inherit";
+}
+.cot1 {
+    margin-top: 50px;
+    display: block;
+    width: 80%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    display: flex;
+
+ }
+.cot2 {
+    margin-top: 2px;
+    display: block;
+    width: 80%;
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.cot3 {
+    margin-top: 2px;
+    display: block;
+    width: 80%;
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.cot4 {
+    margin-top: 2px;
+    display: block;
+    width: 80%;
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.cot5 {
+    margin-top: 2px;
+    display: block;
+    width: 80%;
+    border-top: 1px solid rgb(0, 0, 0);
+}
+figure {
+    float: right;
+}
+.l1 {
+   width: 100%;
+}
